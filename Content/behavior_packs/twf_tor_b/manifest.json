@@ -1,0 +1,76 @@
+{
+    "dependencies": [
+        {
+            "uuid": "eba90f7f-de8e-0226-f46b-b088eb477e30",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.4.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+        }
+    ],
+    "format_version": 2,
+    "header": {
+        "description": "pack.description",
+        "min_engine_version": [
+            1,
+            21,
+            131
+        ],
+        "name": "pack.name",
+        "pack_scope": "world",
+        "uuid": "1ea0d007-2b34-0fe7-e372-86fee9bd169a",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "metadata": {
+        "authors": [
+            "The World Foundry"
+        ],
+        "product_type": "addon"
+    },
+    "modules": [
+        {
+            "description": "Behavior",
+            "type": "data",
+            "uuid": "76a149bb-a6e9-1daa-dc93-535fe3c3059f",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "description": "Scripting",
+            "entry": "scripts/twf/tor/maintor.js",
+            "language": "javascript",
+            "type": "script",
+            "uuid": "47f0117d-0953-3555-4fe4-766d36ac9539",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "data",
+            "uuid": "4a3c9cbd-0c40-53c1-4705-85e863dc63bd",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

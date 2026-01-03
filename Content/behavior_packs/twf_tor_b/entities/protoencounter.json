@@ -1,0 +1,44 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "twf_tor:encounter_proto",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:health": {
+				"value": 9999,
+				"max": 9999
+			}
+		},
+		"component_groups": {
+			"twf_tor:despawn": {
+				"minecraft:instant_despawn": {
+				}
+			}
+		},			
+		"events": {
+			"twf_tor:despawn": {
+				"remove": {
+				},
+				"add": {
+				  "component_groups": [
+					"twf_tor:despawn"
+				  ]
+				}
+			}			
+		}
+	}
+}

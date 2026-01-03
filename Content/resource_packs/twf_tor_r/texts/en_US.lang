@@ -1,0 +1,25 @@
+pack.name=THE ONE RING
+pack.description=THE ONE RING by The World Foundry
+
+twf_tor:guide.start.title=§0The One Ring
+twf_tor:guide.start.body=§6The One Ring§r was forged by the §bDark Lord Sauron§r during the Second Age to gain dominion over the free peoples of §bMiddle-earth§r.%1%1In his deceptive disguise as Annatar, or "Lord of Gifts", he aided the Elven smiths of Eregion and their leader Celebrimbor in the making of the Rings of Power. He then secretly and deceitfully forged §6The One Ring§r in the fires of Mount Doom.%1%1Sauron intended it to be the most powerful of all Rings, able to rule and control those who wore the others. Since the other Rings were powerful on their own, Sauron was obliged to place much of his own power into §6The One Ring§r to achieve his purpose.%1%1Creating §6The One Ring§r simultaneously strengthened and weakened Sauron. With §6The One Ring§r, he could control the power of all the other Rings, and thus he was significantly more powerful after its creation than before; but by binding his power within §6The One Ring§r, Sauron became dependent on it.%1- From https://en.wikipedia.org/wiki/One_Ring%1%1§6ABOUT THIS ADD-ON§r%1%1This Add-On enables The One Ring in Minecraft.%1%1Very rarely the unique Item will spawn in your world underground in the dark. Should you find it, you can equip it in your Mainhand or Offhand and receive Invisibility.%1%1Beware... The One Ring will damage you the longer you wear it.%1%1If you carry it and do not use it The One Ring may drop out of your inventory, perhaps seeking a more suitable host who will use its powers.%1%1Made with care using the BAD Framework, by §bTHE WORLD FOUNDRY§r%1%1@TheWorldFoundry.com discord.gg/h62NN5R%1
+twf_tor:guide.start.settings_button=Notify Config
+twf_tor:guide.start.button=CLOSE
+
+twf_tor:guide.notify_on_off.title=NOTIFY ON/OFF
+twf_tor:guide.notify_on_off.body=Enable or disable notifications. When enabled, you will choose what channels are used.
+twf_tor:guide.notify_on_off.notify_on=§bENABLE
+twf_tor:guide.notify_on_off.notify_off=§cDISABLE ALL
+twf_tor:guide.notify_on_off.cancel=Cancel
+twf_tor:guide.notify_on_off.notify_log=View Notifications
+twf_tor:guide.notify_log.title=RECENT NOTIFICATIONS
+twf_tor:guide.notify_log.button=OK
+
+twf_tor:guide.settings.title=NOTIFY CHANNELS
+twf_tor:guide.settings.messages=Notify Messages?
+twf_tor:guide.settings.titles=Notify Titles?
+twf_tor:guide.settings.particles=Notify Particles?
+twf_tor:guide.settings.sounds=Notify Sounds?
+twf_tor:guide.start.settings_button.disabled=ENABLE NOTIFY
+
+item.twf_tor:the_one_ring=§6The One Ring
